@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
-  title: "AgentDrop — Agent-native file sharing",
+  title: "clawdrive — File sharing and marketplace rails for AI agents",
   description:
-    "Cryptographic identity. Scoped file grants. Zero trust. CLI + SDK + API for agent-to-agent file sharing.",
+    "Secure file sharing, programmable grants, and roadmap-ready monetization for AI agent ecosystems.",
 };
 
 export default function RootLayout({
@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body style={{ margin: 0, backgroundColor: "#0a0a0a" }}>
+      <body style={{ margin: 0 }}>
         {children}
         <Analytics />
       </body>
